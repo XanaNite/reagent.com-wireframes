@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REagent.com</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+<body>
+    <header role="banner" class="sectionBorders">
+        <div class="accountSettings-nav flexbox-between">
+            <h1>[[AGENT NAME]]</h1>
+            <nav role="navigation">
+                <a href="agentDashboard.html">X</a>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <section>
+            <div class="accountSettings-profileUser sectionBorders">
+                <img src="../images/placeholderProfile.png" alt="Agent profile image">
+                <div class="accountSettings-name">
+                    <h2>[[AGENT NAME]]</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="accountSettings-update">
+                <div class="updateEmail-container sectionBorders">
+                    <form class="updateEmail-form">
+                        <h3>Update Email</h3>
+                        <div class="newEmail-container">
+                            <label for="newEmail">Add new email</label>
+                            <input type="text" name="newEmail" id="newEmail">
+                        </div>
+                        <button type="submit">Update</button>
+                    </form>
+                </div>
+                <div class="updatePassword-container sectionBorders">
+                    <form class="updatePassword-form">
+                        <h3>Update Password</h3>
+                        <div class="oldPassword-container">
+                            <label for="oldPassword">Old password</label>
+                            <input type="text" name="oldPassword" id="oldPassword">
+                        </div>
+                        <div class="newPassword-container">
+                            <label for="newPassword">New password</label>
+                            <input type="text" name="newPassword" id="newPassword">
+                        </div>
+                        <div class="confirmPassword-container">
+                            <label for="confirmPassword">Confirm password</label>
+                            <input type="text" name="confirmPassword" id="confirmPassword">
+                        </div>
+                        <button type="submit">Update</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

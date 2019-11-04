@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REagent.com</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="dashboard-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation" class="flexbox-between">
+            <div class="hamburgerMenu">
+                <a href="agentDashboard.html"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="dashboard-title">
+                <h1><a href="../landingPage.html">REagent.com</a></h1>
+                <span>for Professionals</span>
+            </div>
+            <div class="profileImg-container">
+                <a href="accountSettings.html"><img src="../images/placeholderProfile.png" alt="profile image"></a>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="dashboardMain">
+        <section class="dashboardAgent-section dashboardMain-section">
+            <div class="container">
+                <div class="dashboardAgent-agentInfo">
+                    <div class="dashboardAgent-profile">
+                        <img src="../images/placeholderProfile.png" alt="Agent profile image">
+                        <div class="dashboardAgent-name">
+                            <h2>[[AGENT NAME]]</h2>
+                            <p>Enter your slogan</p>
+                        </div>
+                    </div>
+                    <div class="dashboardAgent-contact">
+                        <table>
+                            <tr>
+                                <td class="tableStyle">Email</td>
+                                <td>[[EMAIL]]</td>
+                            </tr>
+                            <tr>
+                                <td class="tableStyle">Phone</td>
+                                <td>[[TYPE]] [[#]]</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <a href="profileForm.html">Improve your profile</a>
+            </div>
+        </section>
+        <section class="dashboardListing-section dashboardMain-section">
+            <div class="container">
+                <div class="dashboardListing-listingInfo">
+                    <h2>Your new listings in the last 30 days</h2>
+                    <div class="dashboardListing-new">
+                        <div class="dashboardListing-none">
+                            <h3>Looks like you haven't had any listings or rentals in the last 30 days</h3>
+                            <p>If you MLS data is not appearing as expected contact Customer Care so we can help you connect your MLS.</p>
+                        </div>
+                        <div class="dashboardListing-info hidden"></div>
+                    </div>
+                </div>
+                <a href="listingList.html">Manage your listings</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
